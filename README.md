@@ -6,7 +6,7 @@
 
 Xavier Phillips, Viewbank College
 
-![Status](https://img.shields.io/badge/status-completed-brightgreen) ![Course](https://img.shields.io/badge/VCAA-Systems%20Engineering-blue) ![Score](https://img.shields.io/badge/evaluation-29%2F40%20%2873%25%29-brightgreen)
+![Status](https://img.shields.io/badge/status-completed-brightgreen) ![Course](https://img.shields.io/badge/VCAA-Systems%20Engineering-blue)
 
 ![Python](https://img.shields.io/badge/Python-OpenCV%20%7C%20NumPy-3776AB) ![Arduino](https://img.shields.io/badge/Arduino-Uno%20R3-00979D) ![CAD](https://img.shields.io/badge/CAD-Onshape-1f6feb) ![Manufacturing](https://img.shields.io/badge/Manufacturing-3D%20Printed%20%2B%20CNC-orange)
 
