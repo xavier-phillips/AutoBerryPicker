@@ -476,8 +476,8 @@ At the same time, the project surfaced clear engineering trade-offs. Mechanical 
 ## Documentation
 
 The complete Systems Engineering folio (Criteria 1-8), including full risk assessments, the detailed 15-week development log, complete testing methodology, and reference list, is available in two parts:
-- [Criteria 1-4](docs/AutoBerryPicker_Folio_Criteria_1-4.pdf)
-- [Criteria 5-8](docs/AutoBerryPicker_Folio_Criteria_5-8.pdf)
+- [Criteria 1-4](docs/AutoBerryPicker_Folio_Criteria_1-3.pdf)
+- [Criteria 5-8](docs/AutoBerryPicker_Folio_Criteria_4-8.pdf)
 
 ---
 
