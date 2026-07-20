@@ -6,7 +6,7 @@
 
 Xavier Phillips, Viewbank College
 
-![Status](https://img.shields.io/badge/status-completed-brightgreen) ![Course](https://img.shields.io/badge/VCAA-Systems%20Engineering-blue) ![Score](https://img.shields.io/badge/evaluation-29%2F40%20%2873%25%29-brightgreen)
+![Status](https://img.shields.io/badge/status-completed-brightgreen) ![Course](https://img.shields.io/badge/VCAA-Systems%20Engineering-blue)
 
 ![Python](https://img.shields.io/badge/Python-OpenCV%20%7C%20NumPy-3776AB) ![Arduino](https://img.shields.io/badge/Arduino-Uno%20R3-00979D) ![CAD](https://img.shields.io/badge/CAD-Onshape-1f6feb) ![Manufacturing](https://img.shields.io/badge/Manufacturing-3D%20Printed%20%2B%20CNC-orange)
 
@@ -78,7 +78,7 @@ _IPO diagram of the features of the AutoBerryPicker device._
 | **Timeline**      | 15-week development cycle                                                          |
 | **Budget**        | \$150 AUD                                                                          |
 | **Final Score**   | 29/40 (73%)                                                                        |
-| **Core stack**    | Onshape (CAD); Arduino IDE; Python (OpenCV, NumPy); Raspberry Pi 3; Arduino Uno R3 |
+| **Core stack**    | Onshape (CAD); Arduino IDE; Python (OpenCV, NumPy); Arduino Uno R3 |
 | **Manufacturing** | FDM 3D printing (Bambu Lab P1S / X1C); CNC laser engraving                         |
 
 ### Specifications
@@ -249,7 +249,7 @@ A single camera and contact sensor setup was selected, rather than a complex ste
 <details>
 <summary><strong>Power & electronics</strong></summary>
 
-A Raspberry Pi 3 performs real-time image analysis from the USB webcam, chosen for being compact and affordable while having sufficient processing power. It sends simple commands to an Arduino Uno R3, which serves as an intermediate controller for electronic components, while also sending FSR sensor and colour sensor data back to the Raspberry Pi. The Arduino was selected for being simple, reliable, and well-documented.
+The system was designed around a Raspberry Pi 3 to perform real-time image analysis from the USB webcam, chosen for being compact and affordable while having sufficient processing power. It sends simple commands to an Arduino Uno R3, which serves as an intermediate controller for electronic components, while also sending FSR sensor and colour sensor data back to the Raspberry Pi. The Arduino was selected for being simple, reliable, and well-documented.
 
 | Component       | Max Current | Voltage | Power |
 | --------------- | ----------- | ------- | ----- |
