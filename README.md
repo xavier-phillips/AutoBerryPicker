@@ -2,7 +2,7 @@
 
 # AutoBerryPicker
 
-**An autonomous, low-cost robotic arm that optically detects and picks strawberries, built as a VCE Systems Engineering Unit 3 & 4 folio project.**
+**An autonomous, low-cost robotic arm that optically detects strawberries and picks them from a skewer, built as a VCE Systems Engineering Unit 3 & 4 folio project.**
 
 Xavier Phillips, Viewbank College
 
@@ -78,7 +78,7 @@ _IPO diagram of the features of the AutoBerryPicker device._
 | **Timeline**      | 15-week development cycle                                                          |
 | **Budget**        | \$150 AUD                                                                          |
 | **Final Score**   | 29/40 (73%)                                                                        |
-| **Core stack**    | Onshape (CAD); Arduino IDE; Python (OpenCV, NumPy); Raspberry Pi 3; Arduino Uno R3 |
+| **Core stack**    | Onshape (CAD); Arduino IDE; Python (OpenCV, NumPy) on a laptop; Arduino Uno R3 |
 | **Manufacturing** | FDM 3D printing (Bambu Lab P1S / X1C); CNC laser engraving                         |
 
 ### Specifications
@@ -249,7 +249,7 @@ A single camera and contact sensor setup was selected, rather than a complex ste
 <details>
 <summary><strong>Power & electronics</strong></summary>
 
-A Raspberry Pi 3 performs real-time image analysis from the USB webcam, chosen for being compact and affordable while having sufficient processing power. It sends simple commands to an Arduino Uno R3, which serves as an intermediate controller for electronic components, while also sending FSR sensor and colour sensor data back to the Raspberry Pi. The Arduino was selected for being simple, reliable, and well-documented.
+A Raspberry Pi 3 was planned to perform real-time image analysis from the USB webcam (in the final build it was omitted and the Python program ran on a laptop), chosen for being compact and affordable while having sufficient processing power. It sends simple commands to an Arduino Uno R3, which serves as an intermediate controller for electronic components, while also sending FSR sensor and colour sensor data back to the Raspberry Pi. The Arduino was selected for being simple, reliable, and well-documented.
 
 | Component       | Max Current | Voltage | Power |
 | --------------- | ----------- | ------- | ----- |
